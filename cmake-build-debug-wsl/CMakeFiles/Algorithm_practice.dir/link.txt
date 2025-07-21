@@ -1,0 +1,1 @@
+/usr/bin/cc -g CMakeFiles/Algorithm_practice.dir/Leetcode/C/leetcode01/leetcode_01_1.c.o -o Algorithm_practice 
