@@ -12,13 +12,12 @@ HashItem hash[HASH_SIZE];
 
 int hashIndex(int key) {
     /* 哈希线性探测，这是局部探测，不是遍历*/
-//  int idx = abs(key) % HASH_SIZE; //处理不了相反数
+    //  int idx = abs(key) % HASH_SIZE; //处理不了相反数
     int idx = key % HASH_SIZE;
     if (idx < 0) idx += HASH_SIZE;
-    while (hash[idx].key != key && hash[idx].value > 0) {
+    while (hash[idx].value > 0 && hash[idx].key != key) {   // 括号里的判断： 这个索引被占了吗， 值对吗
         idx = (idx + 1) % HASH_SIZE;
     }
-
     return idx;
 }
 
