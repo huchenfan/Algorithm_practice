@@ -9,7 +9,7 @@ int reverse(int x) {
         x /= 10;
     }
 
-    return (result > INT_MIN && result <INT_MAX) ? result : 0;
+    return (result > INT_MIN && result < INT_MAX) ? result : 0;
 }
 
 int main(void) {
