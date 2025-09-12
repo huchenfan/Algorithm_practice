@@ -73,15 +73,15 @@ CMakeFiles/Algorithm_practice.dir/Leetcode/C/leetcode01/leetcode_01_1.c.o: CMake
 CMakeFiles/Algorithm_practice.dir/Leetcode/C/leetcode01/leetcode_01_1.c.o: ../Leetcode/C/leetcode01/leetcode_01_1.c
 CMakeFiles/Algorithm_practice.dir/Leetcode/C/leetcode01/leetcode_01_1.c.o: CMakeFiles/Algorithm_practice.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hu_chenfan/workfiles/Algorithm_practice/cmake-build-debug-wsl/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Algorithm_practice.dir/Leetcode/C/leetcode01/leetcode_01_1.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Algorithm_practice.dir/Leetcode/C/leetcode01/leetcode_01_1.c.o -MF CMakeFiles/Algorithm_practice.dir/Leetcode/C/leetcode01/leetcode_01_1.c.o.d -o CMakeFiles/Algorithm_practice.dir/Leetcode/C/leetcode01/leetcode_01_1.c.o -c /home/hu_chenfan/workfiles/Algorithm_practice/Leetcode/C/leetcode01/leetcode_01_1.c
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Algorithm_practice.dir/Leetcode/C/leetcode01/leetcode_01_1.c.o -MF CMakeFiles/Algorithm_practice.dir/Leetcode/C/leetcode01/leetcode_01_1.c.o.d -o CMakeFiles/Algorithm_practice.dir/Leetcode/C/leetcode01/leetcode_01_1.c.o -c /home/hu_chenfan/workfiles/Algorithm_practice/Leetcode/C/leetcode01/leetcode_01_1.c
 
 CMakeFiles/Algorithm_practice.dir/Leetcode/C/leetcode01/leetcode_01_1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Algorithm_practice.dir/Leetcode/C/leetcode01/leetcode_01_1.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hu_chenfan/workfiles/Algorithm_practice/Leetcode/C/leetcode01/leetcode_01_1.c > CMakeFiles/Algorithm_practice.dir/Leetcode/C/leetcode01/leetcode_01_1.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/hu_chenfan/workfiles/Algorithm_practice/Leetcode/C/leetcode01/leetcode_01_1.c > CMakeFiles/Algorithm_practice.dir/Leetcode/C/leetcode01/leetcode_01_1.c.i
 
 CMakeFiles/Algorithm_practice.dir/Leetcode/C/leetcode01/leetcode_01_1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Algorithm_practice.dir/Leetcode/C/leetcode01/leetcode_01_1.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hu_chenfan/workfiles/Algorithm_practice/Leetcode/C/leetcode01/leetcode_01_1.c -o CMakeFiles/Algorithm_practice.dir/Leetcode/C/leetcode01/leetcode_01_1.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/hu_chenfan/workfiles/Algorithm_practice/Leetcode/C/leetcode01/leetcode_01_1.c -o CMakeFiles/Algorithm_practice.dir/Leetcode/C/leetcode01/leetcode_01_1.c.s
 
 # Object files for target Algorithm_practice
 Algorithm_practice_OBJECTS = \
