@@ -3,7 +3,7 @@
 using namespace std;
 
 int reverse(int x) {
-    int result = 0;
+    long result = 0;
 
     while(x){
         result = result * 10 + x % 10;
@@ -13,7 +13,7 @@ int reverse(int x) {
 }
 
 int main(){
-    int a = 1562;
+    int a = -2147483648;
     cout << reverse(a) << endl;
     return 0;
 }
